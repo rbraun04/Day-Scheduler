@@ -9,3 +9,7 @@ Monday - August 3
 I wanted to focus on creating a list of elements that you could delete at will but that presented a lot of problems.  I worked on first creating a div underneath the input field that would create a list of items each with a 'Finished!" button, giving the user more functionality should they want to edit tasks as complete.  This proved frustrating, the buttons were created and worked to delete the "div" contents but then when something was saved it would not return with to the screen with the bottom when the page was refreshed.  This would mean creating a different "finished!" button in the html and I don't think I have time to rebuild.
 
 I also met with Bryan to discuss these problems, he gave me great help but ultimately this is proving to be tood difficult.
+
+Tuesday - August 4
+
+Struggled today with the changes of backround functions that are dependent on the time.  I researched the functionality but for some reason the process is not working.  I will need to meet with Bryan again tomorrow to fix this issue.
