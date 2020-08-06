@@ -23,19 +23,19 @@
   </head>
 
   <body>
-    <header class="jumbotron">
+    <header class="jumbotron-fluid">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" ></p>
     </header>
-    <div class="container">
+    <div class="container-fluid">
       
       <!-- Timeblocks go here -->
       <!--8am-->
       <div class="input-group mb-3">
         <div class="input-group">
           <div class="input-group-prepend">
-            <span class="input-group-text" id="">8:00 AM</span>
+            <span class="input-group-text timetext" id="">8:00 AM</span>
           </div>
         <input type="text" class="form-control" id= "eightAm" data-time = "08" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -43,7 +43,7 @@
         </div>
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text col-md-1 p-3 mb-2 bg-info text-white" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "input-group-text list-group-item-primary text-center eightAMtodo">
       </div>
       <!--9am-->
@@ -51,7 +51,7 @@
       <div class="input-group mb-3">
          <div class="input-group">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="">9:00 AM</span>
+          <span class="input-group-text timetext" id="">9:00 AM</span>
         </div>
         <input type="text" class="form-control" id = "nineAm" data-time = "09" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text col-md-1 p-3 mb-2 bg-info text-white" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "list-group-item list-group-item-primary text-center nineAMtodo">
       </div>
       <!--10am-->
@@ -67,7 +67,7 @@
       <div class="input-group mb-3">
         <div class="input-group">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="">10:00 AM</span>
+          <span class="input-group-text timetext" id="">10:00 AM</span>
         </div>
         <input type="text" class="form-control" id = "tenAm" data-time = "10" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -75,7 +75,7 @@
         </div>
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text col-md-1 p-3 mb-2 bg-info text-white" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "list-group-item list-group-item-primary text-center tenAMtodo">
       </div>
       <!--11pm-->
@@ -83,7 +83,7 @@
       <div class="input-group mb-3">
         <div class="input-group">
         <div class="input-group-prepend">
-          <span class="input-group-text" id="">11:00 AM</span>
+          <span class="input-group-text timetext" id="">11:00 AM</span>
         </div>
         <input type="text" class="form-control" id = "elevenAm" data-time = "11" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -91,14 +91,14 @@
         </div>
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text col-md-1 p-3 mb-2 bg-info text-white" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "list-group-item list-group-item-primary text-center elevenAMtodo">
       </div>
       <!--12pm-->
       <div class="input-group mb-3">
         <div class="input-group">
           <div class="input-group-prepend">
-            <span class="input-group-text" id="">12:00 PM</span>
+            <span class="input-group-text timetext" id="">12:00 PM</span>
           </div>
         <input type="text" class="form-control" id = "twelvePm" data-time = "12" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -106,14 +106,14 @@
         </div>
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text col-md-1 p-3 mb-2 bg-info text-white" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "list-group-item list-group-item-primary text-center twelvePMtodo">
       </div>
       <!--1pm-->
       <div class="input-group mb-3">
         <div class="input-group">
           <div class="input-group-prepend">
-            <span class="input-group-text" id="">1:00 PM</span>
+            <span class="input-group-text timetext" id="">1:00 PM</span>
           </div>
         <input type="text" class="form-control" id = "onePm" data-time = "13" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -121,14 +121,14 @@
         </div>
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text col-md-1 p-3 mb-2 bg-info text-white" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "list-group-item list-group-item-primary text-center onePMtodo">
       </div>
       <!--2pm-->
       <div class="input-group mb-3">
         <div class="input-group">
           <div class="input-group-prepend">
-            <span class="input-group-text" id="">2:00 PM</span>
+            <span class="input-group-text timetext" id="">2:00 PM</span>
           </div>
         <input type="text" class="form-control" id = "twoPm" data-time = "14" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -136,14 +136,14 @@
         </div>
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text col-md-1 p-3 mb-2 bg-info text-white" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "list-group-item list-group-item-primary text-center twoPMtodo">
       </div>
       <!--3pm-->
       <div class="input-group mb-3">
         <div class="input-group">
           <div class="input-group-prepend">
-            <span class="input-group-text" id="">3:00 PM</span>
+            <span class="input-group-text timetext" id="">3:00 PM</span>
           </div>
         <input type="text" class="form-control" id = "threePm" data-time = "15" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -151,14 +151,14 @@
         </div>
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text col-md-1 p-3 mb-2 bg-info text-white" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "list-group-item list-group-item-primary text-center threePMtodo">
       </div>
       <!--4pm-->
       <div class="input-group mb-3">
         <div class="input-group">
           <div class="input-group-prepend">
-            <span class="input-group-text" id="">4:00 PM</span>
+            <span class="input-group-text timetext" id="">4:00 PM</span>
           </div>
         <input type="text" class="form-control" id = "fourPm" data-time = "16" placeholder="What do you need to do?" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
@@ -167,7 +167,7 @@
        
       </div>
       <div class="col-md-2"></div>
-      <span class="input-group-text" id="">To Do:</span>
+      <span class="input-group-text  todotext" id="">To Do:</span>
       <div class= "list-group-item list-group-item-primary text-center fourPMtodo">
       </div>
     </div>

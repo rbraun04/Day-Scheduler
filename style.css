@@ -4,6 +4,30 @@ body {
   line-height: 1;
 }
 
+.container-fluid {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1515166162498-25562df50839?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timetext {
+  background-color: transparent;
+  color: white;
+}
+
+.todotext {
+  background-color: rgb(60, 39, 138);
+  color: white;
+  font: 400 12px/1.8 "Lato", sans-serif;
+  letter-spacing: 6px;
+}
+
 textarea{
   background: transparent;
   border: none;
@@ -13,13 +37,16 @@ textarea{
   padding: 10px;
 }
 
-.jumbotron {
+.jumbotron-fluid {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-image: url("https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-1.2.1&w=1000&q=80");
+  color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 3px solid black;
+  font: 400 12px/1.8 "Lato", sans-serif;
+  letter-spacing: 6px;
 }
+
 
 .description{
   white-space: pre-wrap;
